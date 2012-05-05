@@ -21,7 +21,7 @@ import java.text.DecimalFormat;
  * 
  *  basically this class is the main class for drawing graph
  *  as it is much completed than Graph
- * @author Seyed Vahid Hashemi ACP11SVH
+ * @author Seyed Vahid Hashemi 
  *
  */
 public class TemperatureGraph extends Graph
