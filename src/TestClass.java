@@ -1,5 +1,4 @@
 
-
 import java.awt.Container;
 
 import javax.swing.JFrame;
@@ -49,7 +48,7 @@ public class TestClass extends JFrame
 		boolean drawlines = true;
 		
 		TemperatureGraph tg = new TemperatureGraph(data, guidenumber, drawpoint, drawlines);
-		//for using pressure graph your data needs to be in hpa scale
+		//for using pressure graph your data needs to be in hpa units
 		PressureGraph pg = new PressureGraph(data2, guidenumber, drawpoint, drawlines);
 		WindGraphBuilder wgb = new WindGraphBuilder(data, data2, guidenumber, drawlines, drawpoint);
 		WindGraph wg = new WindGraph(wgb);
